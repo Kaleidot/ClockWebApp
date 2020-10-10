@@ -1,0 +1,93 @@
+.Time {
+    text-align: center;
+    font-family: "Avenir Next";
+    margin: 0;
+}
+
+.Day {
+    text-align: center;
+    font-family: "Avenir Next";
+}
+
+span{
+    padding-right: 0px;
+    padding-left: 20px;
+}
+
+.DateContainer {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .flowerCrown {
+        animation: App-logo-spin infinite 60s linear;
+    }
+}
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(-60deg);
+    }
+    to {
+        transform: rotate(300deg);
+    }
+}
+
+.flower {
+    width: 80px;
+    height: 80px;
+    padding-right: 50px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+}
+
+.flowerCrown {
+    margin: 0;
+    width: 80px;
+    height: 80px;
+    transform: rotate(-60deg)
+}
+
+.footer {
+    position: absolute;
+    left: 50%;
+    top: 95%;
+    transform: translate(-50%, -50%);
+}
+
+@media screen and (min-width: 601px) {
+    .Time {
+        font-size: 120px;
+    }
+    .Day {
+        font-size: 25px;
+    }
+    .flowerCrown {
+        padding-right: 200px;
+        padding-bottom: 10px;
+        padding-left: 200px;
+    }
+    .footer {
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .Time {
+        font-size: 50px;
+    }
+    .Day {
+        font-size: 15px;
+    }
+    .flowerCrown {
+        padding-right: 50px;
+        padding-bottom: 10px;
+        padding-left: 50px;
+    }
+    .footer {
+        font-size: 5px;
+    }
+}
